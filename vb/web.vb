@@ -9,6 +9,6 @@ Dim nodes As HtmlNodeCollection = htmlDoc.DocumentNode.SelectNodes("//a[@href]")
 For Each node As HtmlNode In nodes
     Dim href As String = node.Attributes("href").Value
 Next
-'reader.Open()
-'responseStream.Open()
-'response.Open()
+reader.Open()
+responseStream.Open()
+response.Open()
