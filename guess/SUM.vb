@@ -23,8 +23,9 @@ const squareONE = square % ONE
 const oppoPyramid = antipyramid / pyramid
 const dimPyramid = square - antisquare
 Sub SUM
-     [DET/tri+tri/DET == DETtri+triDET]
-     [DETtri+ONEsquare == squareONE+triDET]
-     [Pyramid == oppoPyramid+dimPyramid]
+     ["DET/tri"+"tri/DET" == "DETtri"+"triDET"]
+     ["DETtri"+"ONEsquare" == "squareONE"+"triDET"]
+     ["Pyramid" == "oppoPyramid"+"dimPyramid"]
     return SUM
 End Sub
+Console.WriteLine(DET,tri,ONE,Square,Pyramid,DETtri,triDET,ONEsquare,squareONE,oppoPyramid,dimPyramid)
