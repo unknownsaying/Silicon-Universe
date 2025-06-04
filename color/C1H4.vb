@@ -59,3 +59,4 @@ Module Program
         Console.ReadLine() ' Keep console window open
     End Sub
 End Module
+Console.WriteLine(C1H4,C5H8,C13,H24)
