@@ -19,6 +19,7 @@ End Function
   }
   vertices.forEach((vertex, index) => {
     console.WriteLine(`Vertex {index}: ({vertex[0]}, {vertex[1]}, {vertex[2]})`);
-  })
+  }
+
 
   
