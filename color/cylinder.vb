@@ -135,3 +135,4 @@ Sub Cylinder
     const CylinderXYZ = Cylinder.XY + Cylinder.YZ + Cylinder.XZ
     return [CylinderXY,CylinderYZ,CylinderZX,CylinderXYZ,X,Y,Z]
 End Sub
+Console.WriteLine(CylinderXY, CylinderYZ, CylinderXZ, CylinderXYZ)
