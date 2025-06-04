@@ -1,4 +1,4 @@
-Dim request As HttpWebRequest = DirectCast("https://su.qq.com/")
+Dim request As HttpWebRequest = DirectCast("https://store.steampowered.com/")
 Dim response As HttpWebResponse = DirectCast(request.GetResponse(), HttpWebResponse)
 Dim responseStream As Stream = response.GetResponseStream()
 Dim reader As New StreamReader(responseStream)
