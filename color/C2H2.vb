@@ -59,4 +59,4 @@ Module Program
         Console.ReadLine() ' Keep console window open
     End Sub
 End Module
-
+Console.WriteLine(C2H2,C4H2,C6H2)
