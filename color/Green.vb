@@ -23,5 +23,5 @@ Class Green
      [1, 0, 1, 0],
      [0, 0, 0, 1]]
 End Class
-console.WiteLine(element5,element6,element7,element8)
+console.WriteLine(element5,element6,element7,element8)
 
