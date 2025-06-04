@@ -1,3 +1,4 @@
+#include "UPPERBIT.c"
 void lowerbit(){    
 char a = "00001011";
 char b = "00001100";
